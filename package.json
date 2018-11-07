@@ -1,0 +1,39 @@
+{
+  "name": "acs-spfx-ui",
+  "version": "1.0.4",
+  "description": "Acs ui framework for sharepoint framewor",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && tsc -p .",
+    "watch": "tsc -w -p .",
+    "clean": "rimraf dist",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyuzeze/acs-spfx-custom-ui.git"
+  },
+  "keywords": [
+    "acs",
+    "spfx"
+  ],
+  "author": "yuyuzeze@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuyuzeze/acs-spfx-custom-ui/issues"
+  },
+  "homepage": "https://github.com/yuyuzeze/acs-spfx-custom-ui#readme",
+  "peerDependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "dependencies": {
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9"
+  }
+}
