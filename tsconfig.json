@@ -1,13 +1,24 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "outDir": "./dist",
     "moduleResolution": "node",
-    "declaration": true
+    "declaration": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015"
+    ]
   },
   "include": [
-    "lib/**/*.ts",
-    "index.ts"
+    "./test/**/*.tsx",
+    "./test/**/*.ts",
+    "./lib/**/*.tsx",
+    "./lib/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

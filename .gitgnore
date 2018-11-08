@@ -1,2 +1,13 @@
-lib/
-node_modules/
+# Dependencies
+node_modules
+
+# Build
+dist
+*.tgz
+
+# Tests
+coverage
+junit.xml
+
+# Misc
+yarn-error.log

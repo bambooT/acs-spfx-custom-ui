@@ -1,3 +1,1 @@
-import * as React from 'react';
-
-export { default as Dialog } from './Dialog';
+export { default as Dialog } from './components/Dialog/Dialog';
