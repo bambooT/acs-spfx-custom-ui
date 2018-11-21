@@ -1,6 +1,6 @@
 {
   "name": "acs-spfx-ui",
-  "version": "1.0.10",
+  "version": "1.0.15",
   "description": "Acs ui framework for sharepoint framework",
   "main": "dist/lib/index",
   "typings": "dist/lib/index",
